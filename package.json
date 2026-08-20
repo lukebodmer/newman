@@ -12,9 +12,8 @@
       "./index.ts"
     ]
   },
-  "peerDependencies": {
-    "@earendil-works/pi-coding-agent": "0.84.2",
-    "typebox": "*"
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "0.84.2"
   },
   "scripts": {
     "newman": "node node_modules/.bin/pi --extension ./index.ts",
